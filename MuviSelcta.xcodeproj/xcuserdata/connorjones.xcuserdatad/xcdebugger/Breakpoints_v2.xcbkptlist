@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E2CCB843-2CA9-499C-893F-2D593D269141"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1C240239-EE3D-45AD-9554-F604914A1D83"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MuviSelcta/iMDb API&apos;s/CinemaSearcher.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "Genre"
+            landmarkType = "13">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "56BF6B38-1381-47F1-BD43-04432A011B6A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MuviSelcta/iMDb API&apos;s/IMDBApi.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
+            landmarkName = "checkDatabase(titleID:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "50176554-0FDD-45F7-B6A5-111246953B69"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MuviSelcta/iMDb API&apos;s/IMDBApi.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "130"
+            endingLineNumber = "130"
+            landmarkName = "checkDatabase(titleID:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4D197772-ED2A-4BF6-8D0D-62D3C073930D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MuviSelcta/iMDb API&apos;s/IMDBApi.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "136"
+            endingLineNumber = "136"
+            landmarkName = "checkDatabase(titleID:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F0381B8F-D3C1-4E57-995E-CB82830A685E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MuviSelcta/Tab Views/WatchListsView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "selectWatchlist(name:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A4475A4A-6418-4462-9DF2-77818CA1D97D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MuviSelcta/Tab Views/WatchListsView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "selectWatchlist(name:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B1194666-3EA5-475F-BEA4-8DCB8530B6A9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MuviSelcta/Tab Views/WatchListsView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "createWatchList(name:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "91515DD3-C708-4D9B-A382-9E7D1E15BB07"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MuviSelcta/Tab Views/WatchListsView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "createWatchList(name:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E1277394-F8DC-4BDF-9CEC-B1FD98785764"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MuviSelcta/Tab Views/WatchListsView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "selectedWatchlist"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "444FF5D3-F109-45FB-B8EC-E90507DC5A4B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MuviSelcta/Views/WatchListViews/CreateNewWatchlistView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C61E7D46-7047-46B0-B6B7-4D39A2EA3FE1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MuviSelcta/Views/WatchListViews/CreateNewWatchlistView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "C61E7D46-7047-46B0-B6B7-4D39A2EA3FE1 - 83ffa54346af82d0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI._ConditionalContent&lt;MuviSelcta.CheckCheckBoxView, MuviSelcta.UncheckCheckBoxView&gt; in closure #2 (MuviSelcta.IMDBApi.Genre) -&gt; SwiftUI.HStack&lt;SwiftUI._ConditionalContent&lt;MuviSelcta.CheckCheckBoxView, MuviSelcta.UncheckCheckBoxView&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.placeholder&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(when: Swift.Bool, alignment: SwiftUI.Alignment, placeholder: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0, SwiftUI.ForEach&lt;Swift.Array&lt;MuviSelcta.IMDBApi.Genre&gt;, MuviSelcta.IMDBApi.Genre, SwiftUI.HStack&lt;SwiftUI._ConditionalContent&lt;MuviSelcta.CheckCheckBoxView, MuviSelcta.UncheckCheckBoxView&gt;&gt;&gt;)&gt; in closure #1 () -&gt; SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.placeholder&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(when: Swift.Bool, alignment: SwiftUI.Alignment, placeholder: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0, SwiftUI.ForEach&lt;Swift.Array&lt;MuviSelcta.IMDBApi.Genre&gt;, MuviSelcta.IMDBApi.Genre, SwiftUI.HStack&lt;SwiftUI._ConditionalContent&lt;MuviSelcta.CheckCheckBoxView, MuviSelcta.UncheckCheckBoxView&gt;&gt;&gt;)&gt;&gt; in MuviSelcta.CreateNewWatchlistView.body.getter : some"
+                  moduleName = "MuviSelcta"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/connorjones/Development/Xcode/MuviSelcta/MuviSelcta/Views/WatchListViews/CreateNewWatchlistView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "304">
+               </Location>
+               <Location
+                  uuid = "C61E7D46-7047-46B0-B6B7-4D39A2EA3FE1 - 42512b0155d0f641"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 () -&gt; SwiftUI._ConditionalContent&lt;MuviSelcta.CheckCheckBoxView, MuviSelcta.UncheckCheckBoxView&gt; in closure #2 (MuviSelcta.IMDBApi.Genre) -&gt; SwiftUI.HStack&lt;SwiftUI._ConditionalContent&lt;MuviSelcta.CheckCheckBoxView, MuviSelcta.UncheckCheckBoxView&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.placeholder&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(when: Swift.Bool, alignment: SwiftUI.Alignment, placeholder: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0, SwiftUI.ForEach&lt;Swift.Array&lt;MuviSelcta.IMDBApi.Genre&gt;, MuviSelcta.IMDBApi.Genre, SwiftUI.HStack&lt;SwiftUI._ConditionalContent&lt;MuviSelcta.CheckCheckBoxView, MuviSelcta.UncheckCheckBoxView&gt;&gt;&gt;)&gt; in closure #1 () -&gt; SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Text, &lt;&lt;opaque return type of SwiftUI.View.placeholder&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.View&gt;(when: Swift.Bool, alignment: SwiftUI.Alignment, placeholder: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0, SwiftUI.ForEach&lt;Swift.Array&lt;MuviSelcta.IMDBApi.Genre&gt;, MuviSelcta.IMDBApi.Genre, SwiftUI.HStack&lt;SwiftUI._ConditionalContent&lt;MuviSelcta.CheckCheckBoxView, MuviSelcta.UncheckCheckBoxView&gt;&gt;&gt;)&gt;&gt; in MuviSelcta.CreateNewWatchlistView.body.getter : some"
+                  moduleName = "MuviSelcta"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/connorjones/Development/Xcode/MuviSelcta/MuviSelcta/Views/WatchListViews/CreateNewWatchlistView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F17B4E15-C796-45F9-8429-4CAB02F92559"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MuviSelcta/Views/WatchListViews/CreateNewWatchlistView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

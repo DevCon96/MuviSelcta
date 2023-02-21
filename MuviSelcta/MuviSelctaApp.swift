@@ -9,12 +9,10 @@ import SwiftUI
 
 @main
 struct MuviSelctaApp: App {
-    let persistenceController = PersistenceController.shared
-
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            MainTabView()
+                .environment(\.managedObjectContext, PersistenceController.shared.persistentContainer.viewContext)
         }
     }
 }
