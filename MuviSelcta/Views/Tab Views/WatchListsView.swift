@@ -29,45 +29,37 @@ fileprivate let testTitle = TitleDetailsResponse(
 struct WatchListsView: View {
     @ObservedObject var viewModel = WatchListViewModel()
     @State private var isShowingCreateNewWatchlistView = false
+    private var hasWatchlists = false
 
     var body: some View {
         NavigationStack {
             VStack {
-                Text(Strings.watchlisViewtTitle)
-                    .foregroundColor(.brandYellow)
-                    .font(.title2)
                 List(viewModel.watchLists) { watchlist in
-                    NavigationLink(watchlist, value: watchlist)
+                    Text(watchlist)
 
-                }.onAppear {
-                    viewModel.createWatchList(name: "Favs")
                 }
-
-                .navigationSplitViewStyle(.prominentDetail)
                 .listStyle(.sidebar)
                 .foregroundColor(.brandDarkBlue)
                 .background(Color.brandYellow)
+                .padding(3)
 
                 HStack {
                     Button(Strings.createNewWatchlist) {
                         isShowingCreateNewWatchlistView.toggle()
                     }
                     .buttonStyle(PrimaryButton())
-                    .sheet(isPresented: $isShowingCreateNewWatchlistView) {
-                        CreateNewWatchlistView(newWatchListName: Strings.newWatchListNamePlaceholder)
-                    }
 
                     Button(Strings.deleteWatchList) {
                         log(.info, "delete custom watchlost pressed")
                     }
                     .buttonStyle(SecondaryButton())
                 }
-                .background(Color.brandLightBlue)
             }
-            .background(Color.brandLightBlue)
-        }
-        .navigationDestination(for: String.self) { _ in
-            SingleTitleView(title: testTitle)
+            .navigationTitle(Strings.watchlisViewtTitle)
+            .toolbarColorScheme(.dark, for: .navigationBar)
+            .toolbarBackground(Color.brandLightBlue, for: .navigationBar)
+            .toolbarBackground(.visible, for: .navigationBar)
+            .background(Color.brandWhite)
         }
     }
 }
@@ -79,6 +71,10 @@ extension WatchListsView {
             didSet {
                 print("Watchlist selected \(selectedWatchlist)")
             }
+        }
+
+        init() {
+            createWatchList(name: "Favs")
         }
 
         func createWatchList(name: String) {
@@ -96,8 +92,9 @@ extension WatchListsView {
 
         func selectWatchlist(name: String) {
             guard watchLists.contains(name) else { return }
-
             selectedWatchlist = name
+
+            
         }
     }
 }

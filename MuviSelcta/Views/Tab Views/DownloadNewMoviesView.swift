@@ -12,19 +12,10 @@ struct DownloadNewMoviesView: View {
     @State private var genreSelected: IMDBApi.Genre = .unknown
 
     var body: some View {
-        VStack {
-            Text("Download new titles")
-                .foregroundColor(.brandYellow)
-                .font(.title)
-            Button("Download Top 5") {
-                Task {
-                    _ = await viewModel.getMostPopularMovies(genreSelected, count:5)
-                }
-            }
-            .padding([.bottom], 5)
-            .frame(maxWidth: .infinity)
-            .buttonStyle(PrimaryButton())
-
+        NavigationStack {
+//            Text("Download new titles")
+//                .foregroundColor(.brandYellow)
+//                .font(.title)
             Form {
                 Section {
                     Picker(selection: $genreSelected, label:
@@ -33,17 +24,42 @@ struct DownloadNewMoviesView: View {
                             Text(genre.rawValue.capitalized)
                                 .foregroundColor(.brandWhite)
                                 .background(Color.brandLightBlue)
-//                                .background(Color.brandDarkBlue)
                         }
                     }
-
                 }
+
+                HStack(spacing: 10) {
+                    Button("Download Top") {
+                        Task {
+                            _ = await viewModel.getMostPopularMovies(genreSelected, count:1)
+                        }
+                    }
+                    .frame(maxWidth: .infinity)
+                    .font(Font.footnote)
+                    .buttonStyle(PrimaryButton())
+
+                    Button("Download Top 5") {
+                        Task {
+                            _ = await viewModel.getMostPopularMovies(genreSelected, count:5)
+                        }
+                    }
+                    .frame(maxWidth: .infinity)
+                    .font(Font.footnote)
+                    .buttonStyle(PrimaryButton())
+                }
+
             }
+            .padding(5)
+            .navigationTitle(Strings.downloadMoreTitle)
             .background(Color.brandLightBlue)
             .tint(Color.brandLightBlue)
+            .toolbarColorScheme(.dark, for: .navigationBar)
+            .toolbarBackground(Color.brandLightBlue, for: .navigationBar)
+            .toolbarBackground(.visible, for: .navigationBar)
+
+
         }
         .preferredColorScheme(.light)
-        .background(Color.brandLightBlue)
     }
 }
 

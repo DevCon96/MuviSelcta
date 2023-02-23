@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4427535B29A3F2F60021D238 /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4427535A29A3F2F60021D238 /* CheckBoxView.swift */; };
 		4427535D29A55B120021D238 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4427535C29A55B120021D238 /* GoogleService-Info.plist */; };
+		4427539B29A569F50021D238 /* NewWatchListAddTitlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4427539A29A569F50021D238 /* NewWatchListAddTitlesView.swift */; };
 		44AA01A32982DFC500F97EFC /* MuviSelctaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AA01A22982DFC500F97EFC /* MuviSelctaApp.swift */; };
 		44AA01A72982DFC600F97EFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44AA01A62982DFC600F97EFC /* Assets.xcassets */; };
 		44AA01AA2982DFC600F97EFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44AA01A92982DFC600F97EFC /* Preview Assets.xcassets */; };
@@ -37,7 +38,7 @@
 		44B0C9242996FD6D00EC9C2E /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B0C9232996FD6D00EC9C2E /* PrimaryButton.swift */; };
 		44B0C9262997102E00EC9C2E /* CatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B0C9252997102E00EC9C2E /* CatalogView.swift */; };
 		44B0C9292997135B00EC9C2E /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B0C9282997135B00EC9C2E /* CustomTabView.swift */; };
-		44B0C92C2998489D00EC9C2E /* CreateNewWatchlistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B0C92B2998489D00EC9C2E /* CreateNewWatchlistView.swift */; };
+		44B0C92C2998489D00EC9C2E /* NewWatchlistNameAndGenresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B0C92B2998489D00EC9C2E /* NewWatchlistNameAndGenresView.swift */; };
 		44B0C92E29984CA400EC9C2E /* View+Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B0C92D29984CA400EC9C2E /* View+Placeholder.swift */; };
 		44B0C9302998571100EC9C2E /* CreateNewWatchListViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B0C92F2998571100EC9C2E /* CreateNewWatchListViewModelTest.swift */; };
 /* End PBXBuildFile section */
@@ -62,6 +63,7 @@
 /* Begin PBXFileReference section */
 		4427535A29A3F2F60021D238 /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
 		4427535C29A55B120021D238 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4427539A29A569F50021D238 /* NewWatchListAddTitlesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWatchListAddTitlesView.swift; sourceTree = "<group>"; };
 		44AA019F2982DFC500F97EFC /* MuviSelcta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuviSelcta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44AA01A22982DFC500F97EFC /* MuviSelctaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuviSelctaApp.swift; sourceTree = "<group>"; };
 		44AA01A62982DFC600F97EFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -93,7 +95,7 @@
 		44B0C9232996FD6D00EC9C2E /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 		44B0C9252997102E00EC9C2E /* CatalogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogView.swift; sourceTree = "<group>"; };
 		44B0C9282997135B00EC9C2E /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
-		44B0C92B2998489D00EC9C2E /* CreateNewWatchlistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewWatchlistView.swift; sourceTree = "<group>"; };
+		44B0C92B2998489D00EC9C2E /* NewWatchlistNameAndGenresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWatchlistNameAndGenresView.swift; sourceTree = "<group>"; };
 		44B0C92D29984CA400EC9C2E /* View+Placeholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Placeholder.swift"; sourceTree = "<group>"; };
 		44B0C92F2998571100EC9C2E /* CreateNewWatchListViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewWatchListViewModelTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -272,7 +274,8 @@
 		44B0C92A2998488400EC9C2E /* WatchListViews */ = {
 			isa = PBXGroup;
 			children = (
-				44B0C92B2998489D00EC9C2E /* CreateNewWatchlistView.swift */,
+				44B0C92B2998489D00EC9C2E /* NewWatchlistNameAndGenresView.swift */,
+				4427539A29A569F50021D238 /* NewWatchListAddTitlesView.swift */,
 			);
 			path = WatchListViews;
 			sourceTree = "<group>";
@@ -412,6 +415,7 @@
 				44AA01D52982E0E400F97EFC /* IMDBResponses.swift in Sources */,
 				44AA01DF2986EB2700F97EFC /* DownloadNewMoviesView.swift in Sources */,
 				44AA01AF2982DFC600F97EFC /* MuviSelcta.xcdatamodeld in Sources */,
+				4427539B29A569F50021D238 /* NewWatchListAddTitlesView.swift in Sources */,
 				44B0C9152996ED1500EC9C2E /* UITableView+RegisterNib.swift in Sources */,
 				44AA01D72982E13100F97EFC /* MuviDashboardView.swift in Sources */,
 				44B0C9192996F04100EC9C2E /* String+Identifiable.swift in Sources */,
@@ -420,7 +424,7 @@
 				4427535B29A3F2F60021D238 /* CheckBoxView.swift in Sources */,
 				44B0C9142996ED1500EC9C2E /* UIColor+Hex.swift in Sources */,
 				44B0C91C2996F79900EC9C2E /* Strings.swift in Sources */,
-				44B0C92C2998489D00EC9C2E /* CreateNewWatchlistView.swift in Sources */,
+				44B0C92C2998489D00EC9C2E /* NewWatchlistNameAndGenresView.swift in Sources */,
 				44AA01AC2982DFC600F97EFC /* Persistence.swift in Sources */,
 				44B0C9292997135B00EC9C2E /* CustomTabView.swift in Sources */,
 				44B0C9202996F9FD00EC9C2E /* DesignSystem.swift in Sources */,

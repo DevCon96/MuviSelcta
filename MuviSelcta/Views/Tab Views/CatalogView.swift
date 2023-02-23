@@ -26,20 +26,23 @@ struct CatalogView: View {
             }
         }
 
-        return result
+        return titles.shuffled()
     }
 
     var body: some View {
-        VStack {
-            Text(Strings.catalogViewTitle)
-                .foregroundColor(.brandYellow)
-                .font(.title)
+        NavigationStack {
+            VStack {
+                List(uniqueTitles) { title in
+                    SingleTitleView(title: title)
 
-            List(uniqueTitles) { title in
-                SingleTitleView(title: title)
-
+                }
+                .navigationTitle(Strings.catalogViewTitle)
+                .toolbarColorScheme(.dark, for: .navigationBar)
+                .toolbarBackground(Color.brandLightBlue, for: .navigationBar)
+                .toolbarBackground(.visible, for: .navigationBar)
+                .background(Color.brandLightBlue)
+                .padding(2)
             }
-            .background(Color.brandLightBlue)
         }
 
     }
@@ -47,22 +50,12 @@ struct CatalogView: View {
 
 extension CatalogView {
     @MainActor public class CatalogViewModel: ObservableObject {
-        @Environment(\.managedObjectContext) private var viewContext
+        @Published private(set) var downloadedImages: [String : Image] = [:]
 
-        @FetchRequest(sortDescriptors: [NSSortDescriptor(keyPath: \Title.title, ascending: true)],animation: .default)
-        private var titles: FetchedResults<Title>
-        @Published private(set) var uniqueTitles = [Title]()
+        public func downloadImage(titleId: String, urlString: String) {
+            guard let url = URL(string: urlString), urlString.contains("https://") else { return }
 
-        init() {
-            filterDuplicates()
-        }
-
-        private func filterDuplicates() {
-            for title in titles {
-                if !uniqueTitles.contains(title) {
-                    uniqueTitles.append(title)
-                }
-            }
+            downloadedImages[titleId] = Image(Strings.imageDownloadErrorSFName).data(url: url)
         }
     }
 }

@@ -18,6 +18,7 @@ struct Strings {
 
     /// Main tab view content
     // MARK: Download new titles view
+    static let downloadMoreTitle = "Download"
     static let genreSelectorTitle = "Select a genre"
 
     // MARK: Catalog view
@@ -32,17 +33,20 @@ struct Strings {
     // MARK: Create new watchlist view
     static let createNewWatchlistTitle = "New Watchlst"
     static let newWatchListNamePlaceholder = "My Watchlist"
+    static let addTitlesButton = "Add Titles"
     static let saveButtonTitle = "Save"
     static let discardButtonTitle = "Discard"
+    static let cancelButtonTitle = "Cancel"
     
     // MARK: Core Data
     static let entityDescriptionName = appName
     static let entityName = "Title"
 
     // MARK: SFSymbol names
-    static let dashboardSymbolName = "house.fill"
-    static let downloadNewSymbolName = "square.and.arrow.down"
-    static let watchlistSymbolName = "film"
-    static let catalogListSymbolName = "list.bullet"
+    static let dashboardSFName = "house.fill"
+    static let downloadNewSFName = "square.and.arrow.down"
+    static let watchlistSFName = "film"
+    static let catalogListSFName = "list.bullet"
+    static let imageDownloadErrorSFName = "person.crop.circle.badge.exclamationmark"
 
 }

@@ -12,18 +12,18 @@ struct MainTabView: View {
         TabView {
             DownloadNewMoviesView()
                 .tabItem {
-                    Label(Strings.downloadViewTitle, systemImage: Strings.downloadNewSymbolName)
+                    Label(Strings.downloadViewTitle, systemImage: Strings.downloadNewSFName)
                         .font(.title)
                         .foregroundColor(.brandYellow)
                 }
             WatchListsView()
                 .tabItem {
-                    Label(Strings.watchlisViewtTitle, systemImage: Strings.watchlistSymbolName)
+                    Label(Strings.watchlisViewtTitle, systemImage: Strings.watchlistSFName)
                         .font(.title)
                 }
             CatalogView()
                 .tabItem {
-                    Label(Strings.catalogViewTitle, systemImage: Strings.catalogListSymbolName)
+                    Label(Strings.catalogViewTitle, systemImage: Strings.catalogListSFName)
                         .font(.title)
                 }
         }
@@ -34,8 +34,6 @@ struct MainTabView: View {
             UITabBar.appearance().tintColor = .brandDarkBlue
         }
         .tint(.brandOrange)
-//        .foregroundColor(.brandWhite)
-        .tabViewStyle(.automatic)
     }
 }
 
