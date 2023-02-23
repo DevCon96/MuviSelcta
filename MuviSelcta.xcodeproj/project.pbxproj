@@ -10,6 +10,7 @@
 		4427535B29A3F2F60021D238 /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4427535A29A3F2F60021D238 /* CheckBoxView.swift */; };
 		4427535D29A55B120021D238 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4427535C29A55B120021D238 /* GoogleService-Info.plist */; };
 		4427539B29A569F50021D238 /* NewWatchListAddTitlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4427539A29A569F50021D238 /* NewWatchListAddTitlesView.swift */; };
+		4427539F29A81B7D0021D238 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4427539E29A81B7D0021D238 /* README.md */; };
 		44AA01A32982DFC500F97EFC /* MuviSelctaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AA01A22982DFC500F97EFC /* MuviSelctaApp.swift */; };
 		44AA01A72982DFC600F97EFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44AA01A62982DFC600F97EFC /* Assets.xcassets */; };
 		44AA01AA2982DFC600F97EFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44AA01A92982DFC600F97EFC /* Preview Assets.xcassets */; };
@@ -64,6 +65,7 @@
 		4427535A29A3F2F60021D238 /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
 		4427535C29A55B120021D238 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4427539A29A569F50021D238 /* NewWatchListAddTitlesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWatchListAddTitlesView.swift; sourceTree = "<group>"; };
+		4427539E29A81B7D0021D238 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		44AA019F2982DFC500F97EFC /* MuviSelcta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuviSelcta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44AA01A22982DFC500F97EFC /* MuviSelctaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuviSelctaApp.swift; sourceTree = "<group>"; };
 		44AA01A62982DFC600F97EFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 		44AA01962982DFC500F97EFC = {
 			isa = PBXGroup;
 			children = (
+				4427539E29A81B7D0021D238 /* README.md */,
 				44AA01A12982DFC500F97EFC /* MuviSelcta */,
 				44AA01B72982DFC700F97EFC /* MuviSelctaTests */,
 				44AA01C12982DFC700F97EFC /* MuviSelctaUITests */,
@@ -386,6 +389,7 @@
 			files = (
 				44AA01AA2982DFC600F97EFC /* Preview Assets.xcassets in Resources */,
 				44AA01A72982DFC600F97EFC /* Assets.xcassets in Resources */,
+				4427539F29A81B7D0021D238 /* README.md in Resources */,
 				4427535D29A55B120021D238 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
